@@ -38,6 +38,42 @@
 	<main class="interna">
 		<div class="container">
 			<form>
+				<!-- curso -->
+				<div class="form-group">
+			    <label for="Curso">Selecione o Curso</label>
+			    <select class="form-control" id="cursos">
+			      <option>Engenharia Computação</option>
+			      <option>Engenharia Química</option>
+			      <option>Engenharia Produção</option>
+			      <option>Engenharia Mecatrônica</option>
+			      <option>Engenharia Mecânica</option>
+			    </select>
+			  </div>
+
+			  <!-- Disciplina -->
+			  <div class="form-group">
+			    <label for="Disciplina">Selecione a disciplina</label>
+			    <select class="form-control" id="disciplinas">
+			      <option>Calculo I</option>
+			      <option>Calculo II</option>
+			      <option>Calculo III</option>
+			      <option>Calculo IV</option>
+			    </select>
+			  </div>
+
+			  <!-- professor -->
+			  <div class="form-group row">
+			   	<label for="professor" class="col-sm-2 col-form-label">Professor</label>
+				  <div class="col-sm-10">
+				    <input type="text" readonly class="form-control-plaintext" id="staticName" value="ProfessorX">
+				  </div>
+  			</div>
+  			<div class="form-group row">
+    			<label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+			    <div class="col-sm-10">
+			      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+			    </div>
+			  </div>
 			  <div class="form-group">
 			    <label for="exampleFormControlInput1">Email address</label>
 			    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -66,7 +102,6 @@
 			    <label for="exampleFormControlTextarea1">Example textarea</label>
 			    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 			  </div>
-			
 			  <button class="btn btn-secondary">Cadastrar</button>
 			</form>
 		</div>
@@ -77,7 +112,6 @@
 	<!-- Jquery -->
 	<script src="vendors/jquery/jquery-3.3.1.min.js"></script>
 	<!-- Popper -->
-	
 	<script src="plugins/popper/dist/popper.js"></script>
 	<!-- Bootstrap -->
 	<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
