@@ -1,0 +1,9 @@
+.casdastro-plano--title {
+	font-size: 2rem;
+}
+
+.cadastro-plano--professor {
+	display: flex;
+	justify-content: space-evenly;
+}
+
