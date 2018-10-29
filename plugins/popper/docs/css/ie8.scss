@@ -3,9 +3,9 @@
 ---
 */
 //@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
+// @import 'libs/functions';
+// @import 'libs/mixins';
+// @import 'libs/skel';
 
 /*
 	Spectral by HTML5 UP
@@ -27,17 +27,17 @@
 
 /* Form */
 
-	label {
-		color: _palette(accent7, fg-bold);
-	}
+	// label {
+	// 	color: _palette(accent7, fg-bold);
+	// }
 
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
-		border: solid 1px _palette(accent7, border);
-	}
+	// input[type="text"],
+	// input[type="password"],
+	// input[type="email"],
+	// select,
+	// textarea {
+	// 	border: solid 1px _palette(accent7, border);
+	// }
 
 /* Button */
 
@@ -85,35 +85,35 @@
 
 /* Banner + Wrapper (style4) */
 
-	#banner,
-	.wrapper.style4 {
-		-ms-behavior: url('js/ie/backgroundsize.min.htc');
+	// #banner,
+	// .wrapper.style4 {
+	// 	-ms-behavior: url('js/ie/backgroundsize.min.htc');
 
-		&:before {
-			display: none;
-		}
-	}
+	// 	&:before {
+	// 		display: none;
+	// 	}
+	// }
 
 /* Banner */
 
-	#banner {
-		.more {
-			height: 4em;
+	// #banner {
+	// 	.more {
+	// 		height: 4em;
 
-			&:after {
-				display: none;
-			}
-		}
-	}
+	// 		&:after {
+	// 			display: none;
+	// 		}
+	// 	}
+	// }
 
 /* Main */
 
-	#main {
-		> header {
-			-ms-behavior: url('js/ie/backgroundsize.min.htc');
+	// #main {
+	// 	> header {
+	// 		-ms-behavior: url('js/ie/backgroundsize.min.htc');
 
-			&:before {
-				display: none;
-			}
-		}
-	}
+	// 		&:before {
+	// 			display: none;
+	// 		}
+	// 	}
+	// }
